@@ -1,0 +1,111 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 3em !important;
+}
+
+.fixed-size-container {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fixed-size {
+    width: 150px;
+    height: 100px;
+    color: #FFF;
+    line-height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-outs-container {
+    text-align: center;
+}
+
+.call-out {
+    padding: 95px;
+    box-sizing: border-box;
+    flex-basis: 50%;
+}
+
+.first {
+    background-color: yellow;
+}
+
+.second {
+    background-color: purple;
+}
+
+.third {
+    background-color: turquoise;
+    line-height: 1.65;
+    display: flex;
+}
+
+.fourth {
+    background-color: red;
+}
+
+.sidebar-one {
+    display: flex;
+    order: 1;
+}
+
+.sidebar-tow {
+    display: flex;
+    order: 2;
+}
+
+@media (min-width: 900px) {
+    .call-outs-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.footer {
+    padding: 40px 0 40px 0;
+    background-color: blue;
+    display: flex;
+}
+
+.center-me {
+    color: #FFF;
+    font-size: 20px;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor: pointer;
+}
+
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+}
+
+.w3-content.w3-display-container {
+    max-width: 800px
+}
+
+.mySlides {
+    width: 100%
+}
